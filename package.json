@@ -29,7 +29,7 @@
     "node": "10.X"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./bin/create-config && node server.js",
     "postinstall": "bash bin/copy-themes.sh"
   }
 }
