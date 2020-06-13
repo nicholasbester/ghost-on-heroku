@@ -29,8 +29,7 @@
 		"node": "10.X"
 	},
 	"scripts": {
-		"dev": "node server.js",
-		"start": "node ./bin/create-config && NODE_ENV=production node server.js",
+		"start": "node server.js",
 		"postinstall": "bash bin/copy-themes.sh"
 	}
 }
